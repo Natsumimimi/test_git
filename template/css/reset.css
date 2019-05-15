@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* margin padding reset */
+body, div, p,  ul, ol, li, dl, dt, dd, table, th ,td, img, figure,
+h1, h2, h3 ,h4 ,h5, h6, form, select {
+  margin: 0;
+  padding: 0;
+}
+
+/* remove list point mark */
+ul,
+ol    { list-style: none; }
+
+/* remove border & off descender */
+img   { border: 0; vertical-align: middle; }
+
+/* remove descender */
+svg,
+input,
+select,
+textarea,
+label { vertical-align: middle; }
+
+/* set collapse */
+table { border-collapse: collapse; }
+
+/* off bold */
+th, em, strong {
+  font-weight: normal;
+}
+
+/* all elements to border-box */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* break word for all elements */
+*,
+*:before,
+*:after {
+  word-break: break-all;
+}
+pre  {
+  white-space: pre-wrap;
+}
+
+/* Base style */
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ丸ゴシック Pro W3", "Hiragino maru Gothic Pro", "MS PGothic", "Helvetica", "sans-serif";
+  font-size: 13px;
+  background: #fff;
+  line-height: 1.5;
+  color: #333;
+  word-break: break-all;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+svg,
+input,
+select,
+textarea,
+label { font-family: "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ丸ゴシック Pro W3", "Hiragino maru Gothic Pro", "MS PGothic", "Helvetica", "sans-serif"; }
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    text-indent: .01px; /*Firefox用*/
+    text-overflow: ""; /*Firefox用*/
+}
